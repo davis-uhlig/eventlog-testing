@@ -20,6 +20,15 @@ public class EventLogTest {
 
         assertEquals("should return true", addEventTest, true);
         assertEquals("number of events should be 1", eventLog.getNumEvents(), 1);
+
+        Event secondEvent = new Event();
+        secondEvent.setName("Davis");
+        secondEvent.setAction("PhoneCall");
+
+        addEventTest = eventLog.addEvent(secondEvent);
+
+        assertEquals("should return true", addEventTest, true);
+        assertEquals("number of events should be 2", eventLog.getNumEvents(), 2);
     }
 
     @Rule
@@ -33,5 +42,17 @@ public class EventLogTest {
 
         failingEventLog.addEvent(emptyEvent);
 
+    }
+
+    @Test
+    public  void addEventFailureTest(){
+        expected.expect(IllegalArgumentException.class);
+        Event eventWithWrongAction = new Event();
+        EventLog failEventLog = new EventLog();
+
+        eventWithWrongAction.setName("davis");
+        eventWithWrongAction.setAction("testing");
+
+        failEventLog.addEvent(eventWithWrongAction);
     }
 }
