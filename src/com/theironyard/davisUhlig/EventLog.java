@@ -23,7 +23,6 @@ public class EventLog {
             throw new IllegalArgumentException("event action is not one of the options");
         }
 
-        System.out.println(event.getAction());
         eventList.add(event);
         return true;
     }

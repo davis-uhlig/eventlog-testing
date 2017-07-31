@@ -29,6 +29,24 @@ public class EventLogTest {
 
         assertEquals("should return true", addEventTest, true);
         assertEquals("number of events should be 2", eventLog.getNumEvents(), 2);
+
+        Event thirdEvent = new Event();
+        thirdEvent.setName("Davis");
+        thirdEvent.setAction("TextMessaging");
+
+        addEventTest = eventLog.addEvent(thirdEvent);
+
+        assertEquals("should return true", addEventTest, true);
+        assertEquals("number of events should be 2", eventLog.getNumEvents(), 3);
+
+        Event fourthEvent = new Event();
+        fourthEvent.setName("Davis");
+        fourthEvent.setAction("PhoneCall");
+
+        addEventTest = eventLog.addEvent(fourthEvent);
+
+        assertEquals("should return true", addEventTest, true);
+        assertEquals("number of events should be 2", eventLog.getNumEvents(), 4);
     }
 
     @Rule
