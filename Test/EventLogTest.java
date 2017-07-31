@@ -41,7 +41,7 @@ public class EventLogTest {
 
         Event fourthEvent = new Event();
         fourthEvent.setName("Davis");
-        fourthEvent.setAction("PhoneCall");
+        fourthEvent.setAction("Unknown");
 
         addEventTest = eventLog.addEvent(fourthEvent);
 

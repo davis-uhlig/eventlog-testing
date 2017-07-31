@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="800a2ca6-de11-4cc9-b229-8bd26c4b6e31" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/eventLogUnitTesting/EventLogTest.class" afterPath="$PROJECT_DIR$/out/test/eventLogUnitTesting/EventLogTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/EventLogTest.java" afterPath="$PROJECT_DIR$/Test/EventLogTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/theironyard/davisUhlig/EventLog.java" afterPath="$PROJECT_DIR$/src/com/theironyard/davisUhlig/EventLog.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,8 +49,8 @@
       <file leaf-file-name="EventLogTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Test/EventLogTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="54" column="8" lean-forward="false" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
+            <state relative-caret-position="314">
+              <caret line="43" column="38" lean-forward="false" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,8 +104,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/theironyard/davisUhlig/Event.java" />
         <option value="$PROJECT_DIR$/src/com/theironyard/davisUhlig/IllegalArgumentException.java" />
-        <option value="$PROJECT_DIR$/Test/EventLogTest.java" />
         <option value="$PROJECT_DIR$/src/com/theironyard/davisUhlig/EventLog.java" />
+        <option value="$PROJECT_DIR$/Test/EventLogTest.java" />
       </list>
     </option>
   </component>
@@ -495,9 +492,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EventLogTest - 2017.07.27 at 16h 02m 35s.xml">
-      <configuration name="EventLogTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="EventLogTest - 2017.07.31 at 11h 38m 11s.xml">
       <configuration name="EventLogTest" configurationId="JUnit" />
     </history-entry>
@@ -523,6 +517,9 @@
       <configuration name="EventLogTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="EventLogTest - 2017.07.31 at 11h 54m 05s.xml">
+      <configuration name="EventLogTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EventLogTest - 2017.07.31 at 11h 54m 57s.xml">
       <configuration name="EventLogTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -619,8 +616,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Test/EventLogTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="54" column="8" lean-forward="false" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
+        <state relative-caret-position="314">
+          <caret line="43" column="38" lean-forward="false" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
